@@ -44,14 +44,15 @@
               
 			<?php
 				wp_nav_menu( array(
-					'theme_location' => 'primary',
-					'container' => 'nav',
-					'container_class' => 'collapse navbar-collapse',
-					'menu_class' => 'navbar-nav ml-auto'
+					'theme_location' => 'menu-1',
+					'menu_id'        => 'primary-menu',
+					'container'      => false,
+					'depth'          => 2,
+					'menu_class'     => 'navbar-nav ml-auto',
+					'walker'         => new Bootstrap_NavWalker(),
+					'fallback_cb'    => 'Bootstrap_NavWalker::fallback',
 				));
-			?>
-
-            
+			?>           
         </nav>
     </header>
 

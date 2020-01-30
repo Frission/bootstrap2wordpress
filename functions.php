@@ -159,3 +159,11 @@ if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
 
+/*
+ * Get Bootstrap 4 Nav Walker
+ */
+require get_template_directory() . '/bootstrap-navwalker.php';
+register_nav_menus( array(
+    'menu-1' => esc_html__( 'Primary', 'theme-textdomain' ),
+) );
+
