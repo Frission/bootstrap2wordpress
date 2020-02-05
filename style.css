@@ -226,7 +226,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 .post,
 .page {
-	margin: 0 0 1.5em;
+	margin: 40px 0 1.5em;
 }
 
 .updated:not(.published) {
@@ -382,7 +382,7 @@ BlueGray: #3e4249
 
 body
 {
-    margin-top: 50px;
+    margin-top: 40px;
     font-family: 'Raleway', sans-serif;
     font-size: 16px;
     background: url("/wp-content/themes/bootstrap2wordpress/images/tile.jpg") top left repeat;
@@ -397,14 +397,14 @@ body
 
 h1, h2, h3, h4, h5, h6
 {
-    -webkit-font-smoothring: antialiased;
+    -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-weight: bold;
 }
 
 h1
 {
-    font-size: 3em;
+    font-size: 2.8em;
 }
 
 h1, h2
@@ -443,7 +443,7 @@ a:hover {
 
 button, input, .btn, a.btn
 {
-    -webkit-font-smoothring: antialiased;
+    -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     color: white;
 }
@@ -578,7 +578,7 @@ blockquote cite
     min-height: 500px;
     padding: 40px 0;
     color: white;
-    -webkit-font-smoothring: antialiased;
+    -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
@@ -658,7 +658,7 @@ blockquote cite
     background: #3e4249;
     padding: 20px 0;
     color: white;
-    -webkit-font-smoothring: antialiased;
+    -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
     font-size: 1.2em;
 }

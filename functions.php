@@ -171,3 +171,4 @@ register_nav_menus( array(
     'menu-1' => esc_html__( 'Primary', 'theme-textdomain' ),
 ) );
 
+add_filter('acf/settings/remove_wp_meta_box', '__return_false');
