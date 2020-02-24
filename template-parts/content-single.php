@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying posts
+ * Template part for displaying a single post
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -42,7 +42,7 @@
 		</div>
 	<?php } ?>
     <div class="post-excerpt">
-    	<?php the_excerpt(); ?>
+    	<?php the_content(); ?>
     </div>
 	
 </article><!-- #post-<?php the_ID(); ?> -->

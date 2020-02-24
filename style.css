@@ -921,8 +921,9 @@ footer li.signup-link a:hover
     font-size: 24px;
 }
 
-.post-image
+.post-image img
 {
+    max-width: 100%;
     height: auto;
 }
 
@@ -1061,6 +1062,24 @@ footer li.signup-link a:hover
     margin: 40px 0 0;
     padding: 20px 0 0;
     border-top: solid 1px #eee;
+}
+
+/* WordPress Comment styles */
+
+#comments footer
+{
+    background: none;
+    color: inherit;
+}
+
+#comments footer a
+{
+    color: inherit;
+}
+
+#comments .comment-metadata
+{
+    margin: 10px 0 0;
 }
 
 /* Resources */

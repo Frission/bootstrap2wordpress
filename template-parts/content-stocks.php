@@ -1,5 +1,4 @@
 <?php
-
     $stocks_feature_image = get_field('stocks_feature_image');
     $stocks_section_title = get_field('stocks_section_title');
     $stocks_section_desc = get_field('stocks_section_description');
